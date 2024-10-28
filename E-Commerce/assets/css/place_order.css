@@ -1,0 +1,59 @@
+  /* Container styling */
+  .place-order-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f9f9f9; /* Off-white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dark text */
+    transition: background-color 0.3s ease;
+}
+.place-order-container:hover {
+    background-color: #f0f0f0; /* Slightly darker off-white on hover */
+}
+.place-order-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d9534f; /* Red heading */
+}
+
+/* Form input styling */
+.form-control, .form-select {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text */
+    border: 1px solid #d9534f; /* Red borders */
+    transition: all 0.3s ease;
+}
+.form-control:focus, .form-select:focus {
+    background-color: #f9f9f9;
+    border-color: #d9534f; /* Focus border color */
+    box-shadow: 0 0 5px rgba(217, 83, 79, 0.5);
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #d9534f; /* Red background */
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #c9302c; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Alert styling */
+.alert-danger {
+    background-color: #f8d7da; /* Light red for error messages */
+    color: #721c24; /* Dark text */
+    border: none;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 576px) {
+    .place-order-container {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+}

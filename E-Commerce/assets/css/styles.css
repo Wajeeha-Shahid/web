@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:indianred;
+    --secondary:rgba(15,10,29,0.849);
+    --light:#2f3640;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.featured{
+    width: 100%;
+    height: 80vh;
+    background-image:linear-gradient(to right, rgba(0,0,0,1)12%, rgba(255,255,255,0.2)), url("girl.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.featured-text{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.featured-text button{
+    background-color: var(--secondary);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 20px 0px;
+}
+
+.latest{
+    padding: 100px 100px;
+}
+.product-intro{    
+    text-align: center;
+}
+.product-intro h1{
+    color: var(--primary);
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.product-intro h1 span{
+    color: var(--secondary);
+}
+
+.product-intro p{
+    color: grey;
+    margin: 15px 0px;
+}
+
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 4rem 0rem;
+}
+
+ .card-container .card{
+    flex-basis: 20%;
+    padding: 0.8rem;
+    position: relative;
+ }
+
+ .card-container .card a i{
+    color: goldenrod;
+    margin: 10px 0px;
+ }
+ .card-container .card a button{
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    padding: 5px  20px;
+ }
+
+ .card-container .card a img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    
+ }
+
+ .card:hover img,.card:hover  h1{
+  
+    color: var(--primary);
+    
+ }
+

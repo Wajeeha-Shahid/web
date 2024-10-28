@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+.container {
+    margin-top: 50px;
+}
+.table {
+    background-color: white; /* White background for the table */
+    border-radius: 8px;
+    overflow: hidden; /* Prevents border radius from showing on table */
+}
+.table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+.btn-danger {
+    border-radius: 5px; /* Rounded corners for the logout button */
+}
+.btn-success {
+    border-radius: 5px; /* Rounded corners for the delivered button */
+}
+h2 {
+    margin-bottom: 20px; /* Space below heading */
+}
+.logout-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}

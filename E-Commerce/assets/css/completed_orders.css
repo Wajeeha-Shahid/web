@@ -1,0 +1,23 @@
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.table {
+    border-radius: 0.5rem;
+    overflow: hidden; /* Prevents corners from sticking out */
+}
+
+.table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.table td {
+    vertical-align: middle; /* Center aligns the content */
+}
+
+/* Optional: Add a hover effect */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
